@@ -20,12 +20,12 @@
 ;; and removes trailing whitespace from the current buffer.
 ;;
 ;; This happens automatically when you save a buffer in code-fascism
-;; mode when the variable `code-fascism-run-at-save' to non-nil (this
-;; is the default).
+;; mode if the variable `code-fascism-run-at-save' is non-nil (this is
+;; the default).
 ;;
-;; If `code-fascism-run-at-exit' is non-nil (the default), then this
-;; process is carried out on all buffers with code-fascism-mode
-;; enabled.
+;; If `code-fascism-run-at-exit' is non-nil (the default), then upon
+;; emacs exit, this process is carried out on all buffers with
+;; code-fascism-mode enabled.
 
 ;; Version history
 ;;  0.01: Initial version
