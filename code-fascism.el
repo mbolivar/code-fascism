@@ -43,7 +43,7 @@
 
 (defgroup code-fascism nil
   "Because tabs and trailing whitespace are evil."
-  :version 0.03
+  :version 0.04
   :group 'programming)
 
 (defcustom code-fascism-run-at-save t
