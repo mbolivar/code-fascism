@@ -82,7 +82,9 @@ fascism is to be run."
         ;; otherwise, delete all the trailing whitespace
         (code-fascism-delete-trailing-whitespace (point-min) (point-max)))
       (message "untabifying...")
-      (untabify (point-min) (point-max))))
+      (untabify (point-min) (point-max)))
+  ;; Return nil so write-contents-hooks keeps going.
+  nil)
 
 ;; Essentially stolen wholesale from `delete-trailing-whitespace' in
 ;; simple.el; the only modification was to allow start and end point
